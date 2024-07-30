@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Free Writers Forum</title>
+        <link rel="icon" href="images\fav.jpg">
+        <link rel="stylesheet" href="styleind.css">
+    </head>
+    
+    <body>
+        <header class="header">
+            <div class="logo">
+               
+              
+            <nav>
+                      <ul>
+                          <li><a href="index.php"><img src="images\fav.jpg" height="50px" width="60px"></a></li>
+                          <li><a href="index.php">Homepage</a></li>
+                          <li><a href="categories.php">Categories</a></li>
+                          <li><a href="writeup.php">Write up!</a></li>
+                          <li> <a href="guidelines.php">Guidelines</a></li>
+                          <li><a href="contact.php">Contact us</a></li>
+                          <li><a href="signup.php">Sign up!</a></li>
+                          <li><a href="Login.php">Login now</a></li>
+                          <li> <a href="search.php">Search</a></li>
+                          
+                          
+                      </ul>
+                  </nav>
+              
+                 
+              </div>
+
+              
+      </header>
+        <h1 class="fir">
+            Our Guidelines
+        </h1>
+        <div class="ha">
+
+      <ul>
+        <li>We want everyone who use this website to maintain a peaceful environment, because this is a place where you share your soul with your writings.</li>
+        <li>Everyone on this website deserve a standing ovation for sharing their inspiring and motivational thoughts.</li><li> We do not encourage any indecent behaviour like using non-parliamentary language (foul language) and critisicing others through posts. </li>
+        <li>If these incidents are noticed, then person who instigated this kind of things will receive three warnings. </li>
+        <li>If still they did not correct then they are permanently banned for using this facility.</li>
+      </ul>
+        </div>
+
+
+
+
+        <footer class="ifooter">
+            <div class="page-up">
+                <a href="index.html"><img src="images\goup.jpg" height="50px" width="50px"></a>
+            </div>
+                   <div>
+                    <div class="in"><a href="index.html">Free Writers Forum</a> </div>
+                       <ul>
+                           <li><a href="index.html">Homepage</a></li>
+                           <li><a href="categories.html">Categories</a></li>
+                           <li><a href="writeup.html">Write up!</a></li>
+                           <li> <a href="guidelines.html">Guidelines</a></li>
+                           <li><a href="contact.html">Contact us</a></li>
+                           <li><a href="signup.html">Sign up!</a></li>
+                           <li><a href="Login.html">Login now</a></li>
+                       </ul>
+                    </div>
+          </footer>
+
+        
+
+    </body>
+</html>

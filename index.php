@@ -1,3 +1,4 @@
+<?php	session_start();	?>
 <!DOCTYPE html>
 <html>
     <head>
@@ -13,14 +14,28 @@
               
                   <nav>
                       <ul>
-                          <li><a href="index.html"><img src="images\fav.jpg" height="50px" width="60px"></a></li>
-                          <li><a href="index.html">Homepage</a></li>
-                          <li><a href="categories.html">Categories</a></li>
-                          <li><a href="writeup.html">Write up!</a></li>
-                          <li> <a href="guidelines.html">Guidelines</a></li>
-                          <li><a href="contact.html">Contact us</a></li>
-                          <li><a href="signup.html">Sign up!</a></li>
-                          <li><a href="Login.html">Login now</a></li>
+                          <li><a href="index.php"><img src="images\fav.jpg" height="50px" width="60px"></a></li>
+                          <li><a href="index.php">Homepage</a></li>
+                          <li><a href="categories.php">Categories</a></li>
+                          <li><a href="writeup.php">Write up!</a></li>
+                          <li> <a href="guidelines.php">Guidelines</a></li>
+                          <li><a href="contact.php">Contact us</a></li>
+                          <li><a href="signup.php">Sign up!</a></li>
+                          <?php 
+					if(isset($_SESSION["user_id"])){
+				?>
+					<li><a href="profile.php">profile</a></li>
+					<li><a href="logout.php">Logout</a></li>
+				<?php 
+					}
+					else{
+				?>
+					<li class="log_btn"><a href="login.php">Login</a></li>
+				<?php
+					}
+				?>
+
+                          
                           <li> <a href="search.html">Search</a></li>
                           
                           
